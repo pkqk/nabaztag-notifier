@@ -4,7 +4,7 @@ require 'hpricot'
 require 'array_random_value'
 
 module WikiQuotes
-  URL = 'http://wiki/trac/wiki/NabaztagQuotes'
+  URL = 'http://wiki/wiki/NabaztagQuotes'
   AUTHENTICATION = ['developmentserver', '12lion4']
   
   def self.get_quotes
