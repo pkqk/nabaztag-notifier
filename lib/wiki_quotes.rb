@@ -9,7 +9,7 @@ module WikiQuotes
   
   def self.get_quotes
     @quotes ||= (Hpricot(open(URL, :http_basic_authentication => AUTHENTICATION).read) /
-      "div[@id='searchable']//li").map { |el| el.inner_text.strip }
+      "div.searchable li").map { |el| el.inner_text.strip }
   end
   
   def self.random_quote
