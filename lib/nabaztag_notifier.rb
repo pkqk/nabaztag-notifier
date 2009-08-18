@@ -10,7 +10,9 @@ USER_ALIASES = {
   'tomlea' => "Tom",
   "Tom Lea <commit@tomlea.co.uk>" => "Tom",
   "Adam Johnson <adam@pkqk.net>" => 'Adam',
-  "Matt House <matthouse@reevoo.com>" => 'Matt'
+  "Matt House <matthouse@reevoo.com>" => 'Matt',
+  "George Brocklehurst <george.brocklehurst@gmail.com>" => 'George',
+  "George Brocklehurst <georgebrocklehurst@reevoo.com>" => 'George',
 }
 
 PROJECT_ALIASES = {
